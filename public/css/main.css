@@ -1,0 +1,265 @@
+@import url(http://fonts.googleapis.com/css?family=Fjalla+One);
+@import url(http://fonts.googleapis.com/css?family=Lobster);
+@import url(http://fonts.googleapis.com/css?family=Dosis);
+
+@font-face {
+    font-family: font-plataforma;
+    src: url('../fonts/Padaloma.ttf');
+}
+body{background-image:url('../img/filigrana.jpg')}
+/* HEADER SECTION HEAD*/
+
+.modal{z-index: 99999;}
+#container-head{width: 100%; height:55px; background-color: #fff; position: fixed; z-index: 9000;margin-top: 0;}
+.logoPlataforma{position: absolute; left: 80px; width: 320px; top: 2px;}
+.redes-sociales{font-size: 24px; margin: 6px 3px 0px 0px;
+ border:1px #eee solid; color:#ccc;  -webkit-transition: all 300ms cubic-bezier(0.77, 0, 0.175, 1);
+  transition:         all 600ms cubic-bezier(0.77, 0, 0.175, 1); border-radius:5px; cursor:pointer;}
+.b-s-r{ font-size: 28px; color: #666;}
+.icogoogle{font-size: 20px;}
+.container-social-icon{border-left: 1px solid #eee; right: 15px; padding-bottom: 0px; height: 55px; width: 45px; background: #fff; position: absolute;}
+.container-social-icon>i{ font-size: 18px; color:#999; padding-top: 10px;padding-right: 5px; position: relative; right: 4px;}
+.blue{color: blue;}
+.container-social-icon:hover{color:#fff;}
+.i-t:hover{background: #55acee;color: #fff;}
+.i-l:hover{background:#2088bd; color:#fff;}
+.i-g:hover{background: #d95336; color: #fff}
+.i-i:hover{background: #885843; color: #fff};
+
+/*END SECTION HEADER*/
+
+
+/*  SECTION MEDIUM HOME */
+.titulo-pop{font-family: 'Lobster', cursive; font-size: 22px;}
+.contenedormedium {background-image:url('../img/filigrana.jpg'); height:220px; }
+.container-medium{}
+.plataformatitulo{font-family: font-plataforma; font-size: 27px;}
+.plataformasubtitulo{font-family: 'Fjalla One'; font-size: 24px;}
+
+.contenedor-medium>.container{background-color: rgba(255, 255, 255, 0.3);}
+
+.img-comercial{width: 80px;}
+.img-certificacion{width: 97px;}
+.img-operaciones{width: 125px; padding-top: 10px;}
+.mensajecentro{padding-top:40px; padding-bottom: 30px;}
+.textomensaje{
+	font-family: 'Fjalla One', sans-serif;
+}
+.panel-textomensaje{background: #000;}
+.textomensaje-oscuro{
+	font-family: 'Fjalla One', sans-serif; color:#fff; font-size: 23px;
+}
+.subtextomensaje{
+	font-family: 'Lobster', cursive;
+}
+.fondo-blanco{background: #fff;}
+.titulopanel{font-family: 'Fjalla One', sans-serif; font-size: 20px;}
+.parrafomedium{font-family: 'Dosis', sans-serif; font-size: 17px;}
+.parrafomedium-1{font-family: 'Dosis', sans-serif; font-size: 22px;}
+.color-contacto{background: #fff}
+.img-bandera{width: 30px;}
+.icon-panel{font-size: 20px;}
+.phone{font-family: 'Fjalla One', sans-serif; font-size: 17px;}
+.phone-1{font-family: 'Fjalla One', sans-serif; font-size: 14px;}
+.contenedor-portafolio{background:#eee; color:#111; width:30%; float:left;}
+.contenedor-portafolio>i{font-size: 23px;}
+.img-portafolio{width: 130px; margin-bottom: 5px; margin-left: 4px;}
+
+
+/*FOOTER*/
+
+.footer-plataforma{background: #000; width: 100%}
+.background-oscuro{background: #000; border: #000; color: #fff; margin-top: 15px;}
+.list-footer{font-family: 'Fjalla One', sans-serif; font-size: 15px;
+list-style-type:none;}
+
+.link-footer{text-decoration: none; color: #fff;}
+.link-footer:hover{text-decoration: none; color: #fff;}
+.link-footer:focus{text-decoration: none; color: #fff;}
+.link-footer:active{text-decoration: none; color: #fff;}
+.subtextomensaje-footer{
+	font-family: 'Lobster', cursive; color: #bbb;
+}
+/*END FOOTER*/
+
+/*LINKS*/
+a{text-decoration: none;}
+
+
+/*END LINKS*/
+
+/*SERVICIOS*/
+.titulodeservicio{font-family: 'Fjalla One', sans-serif; font-size: 70px; color: #111;
+margin:50px 0px 20px 0px;}
+.service-contend{background: #fff;}
+.text-service{font-family:'Dosis', sans-serif; font-size: 19px; padding-top: 15px;}
+.unase-text{font-family:'Dosis', sans-serif; font-size: 25px; padding-top: 15px;}
+.portada-service{margin: 20px 0px 20px 0px;}
+.tplataforma{font-family:font-plataforma}
+.titulo-panel{font-family: 'Fjalla One', "Helvetica", Arial; font-size: 20px; color: #fff;}
+.fondo-iluminacion{background: url('../img/iluminacion-580.jpg');height: 165px;}
+.img-tab-video{margin: 10px 10px 5px 8px;}
+.text-unase{font-family: 'Lobster', cursive; font-size: 22px;}
+.contacto-av{font-family:'Dosis', 'Helvetica', sans-serif; font-size: 22px;}
+/*SERVICIOS*/
+
+
+/*CONTACTENOS*/
+
+.titulopanelcontactos{font-family: 'Fjalla One', sans-serif; font-size: 22px; color:#111;}
+
+/*END CONTACTENOS*/
+
+
+/*   SLIDER   */
+
+/*-----------------------------------------------------------------------------
+
+KENBURNER RESPONSIVE BASIC STYLES OF HTML DOCUMENT
+
+Screen Stylesheet
+
+version:   	1.0
+date:      	07/27/11
+author:		themepunch
+email:     	support@themepunch.com
+website:   	http://www.themepunch.com
+-----------------------------------------------------------------------------*/
+
+.boxedcontainer		{	max-width: 1170px; margin:auto; padding:0px 30px;}
+
+/*********************************************
+	-	SETTINGS FOR BANNER CONTAINERS	-
+**********************************************/
+
+.tp-banner-container{
+	width:100%;
+	position:relative;
+	padding:0;
+
+}
+
+.tp-banner{
+	width:100%;
+	position:relative;
+}
+
+.tp-banner-fullscreen-container {
+		width:100%;
+		position:relative;
+		padding:0;
+}
+
+/*  END SLIDER  */
+
+
+/* TABS */
+
+
+
+/* END TABS*/
+
+
+
+/* carousel */
+#quote-carousel 
+{
+  padding: 0 10px 30px 10px;
+  margin-top: 30px;
+}
+
+/* Control buttons  */
+#quote-carousel .carousel-control
+{
+  background: none;
+  color: #222;
+  font-size: 2.3em;
+  text-shadow: none;
+  margin-top: 30px;
+}
+/* Previous button  */
+#quote-carousel .carousel-control.left 
+{
+  left: -12px;
+}
+/* Next button  */
+#quote-carousel .carousel-control.right 
+{
+  right: -12px !important;
+}
+/* Changes the position of the indicators */
+#quote-carousel .carousel-indicators 
+{
+  right: 50%;
+  top: auto;
+  bottom: 0px;
+  margin-right: -19px;
+}
+/* Changes the color of the indicators */
+#quote-carousel .carousel-indicators li 
+{
+  background: #c0c0c0;
+}
+#quote-carousel .carousel-indicators .active 
+{
+  background: #333333;
+}
+#quote-carousel img
+{
+  width: 250px;
+  height: 100px
+}
+/* End carousel */
+
+.item blockquote {
+    border-left: none; 
+    margin: 0;
+}
+
+.item blockquote img {
+    margin-bottom: 10px;
+}
+
+.item blockquote p:before {
+    content: "\f10d";
+    font-family: 'Fontawesome';
+    float: left;
+    margin-right: 10px;
+}
+
+
+
+/**
+  MEDIA QUERIES
+*/
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    #quote-carousel 
+    {
+      margin-bottom: 0;
+      padding: 0 40px 30px 40px;
+    }
+    
+}
+
+/* Small devices (tablets, up to 768px) */
+@media (max-width: 768px) { 
+    
+    /* Make the indicators larger for easier clicking with fingers/thumb on mobile */
+    
+    #quote-carousel .carousel-indicators {
+        bottom: -20px !important;  
+    }
+    #quote-carousel .carousel-indicators li {
+        display: inline-block;
+        margin: 0px 5px;
+        width: 15px;
+        height: 15px;
+    }
+    #quote-carousel .carousel-indicators li.active {
+        margin: 0px 5px;
+        width: 20px;
+        height: 20px;
+    }
+}
